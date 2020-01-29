@@ -126,8 +126,13 @@ a:active {
 	align-items: center;
 }
 
-.about-index div {
+.about-index > div {
 	width: 50%;
+}
+
+.about-index div div {
+	text-align: center;
+    margin-top: 42px;
 }
 
 .about-index h1, .about-index h2, .about-index h4{
